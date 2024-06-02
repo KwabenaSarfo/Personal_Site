@@ -1,0 +1,94 @@
+.gradient-background {
+    background: linear-gradient(300deg, #bfeaf8, #4c58ff, #030b53);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+p{
+    color: white;
+    font-size: 2,5rem;
+    font-weight: normal;
+}
+
+.bold-text{
+    font-weight: 500;
+}
+.middle-container{
+    text-align: center;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    padding-top: 10px;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+
+.intro{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-family: "Merriweather",serif;
+    color: #030b53;
+    unicode-bidi: isolate;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+h4{
+  text-align: center;
+    font-size: 2.5rem;
+}
+
+.btn{
+  background: #030b53;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  margin-left: 40%;
+  margin-right: 40%;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: #4c58ff;
+}
+
+.bottom-container{
+  align-items: center;
+  text-align: center;
+  background-color: #030b53;
+  padding: 50px 0 20px;
+}
+
